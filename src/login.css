@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+}
+.main{
+    /*overflow: hidden;*/
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.left{
+    padding-left: 50px;
+    width: 25vw;
+    height: 100vh;
+}
+.right{
+    color: rgb(9, 99, 37);
+    background-image: url(../assets/image/login_promo_desktop.svg);
+    width: 75vw;
+    height: 100vh;
+}
+img{
+    height: 100vh;
+}
+input{
+    border: 1px solid grey ;
+    border-radius: 2px;
+    margin-right: -35px;
+    padding: 15px; 
+    width: 80%;
+    margin-top: 10px;
+}
+.content{
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+.btn{
+    color: rgb(9, 99, 37);
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(9, 99, 37);
+    cursor: pointer;
+    display: flex;
+}
+form{
+    margin-top: 50px;
+}
+p{
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+label, b{
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+h4{
+    color: rgb(9, 99, 37);
+    padding-top: 10px;
+    font-size: x-large;
+    font-weight: 100;
+}
+h2{
+    margin-top: 10px;
+    font-size: xx-large;
+    color: rgb(9, 99, 37);
+}
+#icon{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: -2px;
+}
+.icon{
+    border: 1px solid grey;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.link{
+    margin-top: -5px;
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+    text-align: center;
+   
+}
+.signup{
+    color:  rgb(19, 138, 178);
+    margin-left: -12px;
+
+}
+.header{
+    display: flex;
+    
+}
+.head-icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 8px; 
+}
+.submit{
+    padding: 10px;
+    width: 80px;
+    cursor: pointer;
+    margin-top: 10%;
+}
+.rightimg{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
